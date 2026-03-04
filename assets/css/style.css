@@ -741,3 +741,322 @@ h1{
     font-size: 13px;
     color: #ff9800;
 }
+
+
+/* PATIENTS STORY PAGE CSS */
+/* ================= HERO ================= */
+.hero-section {
+  background: #f8f9fb;
+  padding: 30px 0;
+}
+
+.hero-subtitle {
+  color: #2a9d8f;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.hero-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.hero-desc {
+  color: #6c757d;
+  max-width: 600px;
+}
+
+/* ================= STORIES ================= */
+.stories-section {
+  padding: 60px 0;
+}
+
+.story-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  padding: 20px;
+  align-items: center;
+}
+
+.story-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.story-content h5 {
+  font-weight: 600;
+}
+
+.badge-custom {
+  background: #e6f4f1;
+  color: #2a9d8f;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.stars {
+  color: #f47c2c;
+  margin: 10px 0;
+}
+
+.story-date {
+  font-size: 13px;
+  color: #6c757d;
+}
+
+
+/* events page css */
+
+
+/* ================= HERO ================= */
+.events-hero-section{
+background:#f4f7f9;
+padding:30px 0;
+}
+
+.events-hero-subtitle{
+color:#2a9d8f;
+font-weight:600;
+letter-spacing:1px;
+}
+
+.events-hero-title{
+font-size:42px;
+font-weight:700;
+margin:15px 0;
+}
+
+.events-hero-desc{
+max-width:600px;
+color:#6c757d;
+}
+
+/* ================= EVENT CARD ================= */
+.events-list-section{
+padding:30px 0;
+}
+
+.events-card{
+background:#fff;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+margin-bottom:30px;
+overflow:hidden;
+}
+
+.events-img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.events-content{
+padding:25px;
+}
+
+.events-badge{
+background:#e6f4f1;
+color:#2a9d8f;
+padding:5px 12px;
+border-radius:20px;
+font-size:12px;
+}
+
+.events-meta p{
+margin-bottom:8px;
+color:#6c757d;
+font-size:14px;
+}
+
+.events-buttons{
+margin-top:15px;
+}
+
+.btn-view{
+background:#2a9d8f;
+color:#fff;
+margin-right:10px;
+}
+
+.btn-register{
+border:1px solid #2a9d8f;
+color:#2a9d8f;
+}
+
+/* blog css  */
+
+/* ================= HERO ================= */
+.blog-hero-section{
+background:#f4f7f9;
+padding:30px 0;
+}
+
+.blog-hero-subtitle{
+color:#2a9d8f;
+font-weight:600;
+letter-spacing:1px;
+}
+
+.blog-hero-title{
+font-size:42px;
+font-weight:700;
+margin:15px 0;
+}
+
+.blog-hero-desc{
+max-width:600px;
+color:#6c757d;
+}
+
+/* ================= FILTER ================= */
+.blog-filter-section{
+padding:40px 0;
+}
+
+.blog-search-box input{
+width:260px;
+border-radius:30px;
+padding-left:20px;
+}
+
+.blog-category-buttons .btn{
+border-radius:30px;
+margin-left:8px;
+background:#e9f4f2;
+color:#2a9d8f;
+font-size:14px;
+}
+
+.blog-category-buttons .btn.active{
+background:#2a9d8f;
+color:#fff;
+}
+
+/* ================= BLOG GRID ================= */
+.blog-grid-section{
+padding-bottom:80px;
+}
+
+.blog-card{
+background:#fff;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+overflow:hidden;
+transition:0.3s;
+}
+
+.blog-card:hover{
+transform:translateY(-5px);
+}
+
+.blog-img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.blog-card-body{
+padding:20px;
+}
+
+.blog-badge{
+background:#e6f4f1;
+color:#2a9d8f;
+padding:5px 12px;
+border-radius:20px;
+font-size:12px;
+}
+
+.blog-meta{
+display:flex;
+justify-content:space-between;
+margin-top:10px;
+font-size:13px;
+color:#6c757d;
+}
+
+/* contact page css */
+
+
+/* ===== HERO ===== */
+.mc-contact-hero{
+  padding:30px 0;
+  background:#f4f7f9;
+}
+.mc-small-title{
+  color:#2e8b87;
+  font-weight:600;
+  letter-spacing:1px;
+}
+.mc-contact-hero h1{
+  font-size:42px;
+  font-weight:700;
+  margin:10px 0;
+}
+.mc-hero-desc{
+  max-width:600px;
+  color:#6b7280;
+}
+
+/* ===== CONTACT AREA ===== */
+.mc-contact-area{
+  padding:40px 0 60px;
+}
+
+.mc-info-card{
+  background:#fff;
+  padding:20px;
+  border-radius:10px;
+  margin-bottom:20px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.05);
+}
+.mc-info-card i{
+  font-size:24px;
+  color:#2e8b87;
+}
+.mc-info-card h6{
+  margin-top:10px;
+  font-weight:600;
+}
+.mc-info-card p{
+  color:#6b7280;
+  font-size:14px;
+}
+
+/* ===== FORM BOX ===== */
+.mc-form-box{
+  background:#fff;
+  padding:30px;
+  border-radius:10px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.05);
+}
+.mc-form-box h5{
+  margin-bottom:20px;
+  font-weight:600;
+}
+.form-control{
+  border-radius:6px;
+  padding:10px;
+}
+.mc-btn-submit{
+  background:#ff7a2f;
+  color:#fff;
+  padding:12px;
+  border-radius:6px;
+}
+.mc-btn-submit:hover{
+  background:#e96b25;
+}
+
+/* ===== MAP ===== */
+.mc-map-section iframe{
+  width:100%;
+  height:350px;
+  border:0;
+}
