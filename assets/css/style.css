@@ -1060,3 +1060,687 @@ color:#6c757d;
   height:350px;
   border:0;
 }
+
+
+/* event popup css */
+
+/* REGISTER MODAL */
+/* PREMIUM MODAL */
+
+.premium-modal{
+border-radius:15px;
+overflow:hidden;
+}
+
+/* LEFT IMAGE PANEL */
+
+.register-image{
+background:url('https://images.unsplash.com/photo-1584515933487-779824d29309') center/cover no-repeat;
+position:relative;
+min-height:100%;
+}
+
+.register-overlay{
+background:rgba(0,0,0,0.55);
+height:100%;
+color:#fff;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:40px;
+}
+
+.register-overlay h3{
+font-weight:700;
+margin-bottom:10px;
+}
+
+/* FORM STYLE */
+
+.form-floating>.form-control{
+border-radius:8px;
+}
+
+.form-control:focus{
+border-color:#0d6efd;
+box-shadow:0 0 10px rgba(13,110,253,0.2);
+}
+
+/* SUBMIT BUTTON */
+
+.premium-submit{
+background:linear-gradient(135deg,#0d6efd,#1e90ff);
+border:none;
+padding:14px;
+border-radius:30px;
+font-weight:600;
+color:#fff;
+transition:.3s;
+}
+
+.premium-submit:hover{
+transform:translateY(-2px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* SUCCESS MESSAGE */
+
+.success-icon{
+font-size:50px;
+color:#28a745;
+}
+
+/* MOBILE */
+
+@media(max-width:991px){
+
+.register-image{
+display:none;
+}
+
+.modal-dialog{
+margin:10px;
+}
+
+}
+
+/* service details css */
+.hero{
+background:url('https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc') center/cover no-repeat;
+padding:40px 0;
+color:#fff;
+position:relative;
+}
+
+.hero::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background:rgba(0,0,0,.45);
+}
+
+.hero .container{
+position:relative;
+z-index:2;
+}
+
+.hero h1{
+font-weight:700;
+}
+
+/* SECTION */
+
+.section{
+padding:30px 0;
+}
+
+.section-title{
+font-weight:600;
+margin-bottom:20px;
+}
+
+/* PROCEDURE */
+
+.procedure-card{
+background:#fff;
+padding:16px;
+border-radius:8px;
+display:flex;
+gap:15px;
+margin-bottom:12px;
+border:1px solid #eee;
+}
+
+.number{
+background:#2f8c86;
+color:#fff;
+width:32px;
+height:32px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+font-weight:600;
+}
+
+/* WHY */
+
+.why-box{
+background:#e9f3f3;
+padding:25px;
+border-radius:10px;
+}
+
+/* TAGS */
+
+.tags span{
+display:inline-block;
+background:#e9ecef;
+padding:6px 12px;
+border-radius:20px;
+margin:4px;
+font-size:14px;
+}
+
+/* CTA */
+
+.cta{
+background:#fff;
+padding:50px 0;
+text-align:center;
+}
+
+
+/* hospital details css  */
+/* HERO */
+
+.hero{
+background:linear-gradient(135deg,#2f8c86,#3fa9a4);
+padding:60px 0;
+color:#fff;
+}
+
+.hero-card{
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(8px);
+padding:40px;
+border-radius:12px;
+max-width:650px;
+animation:fadeUp .7s ease;
+}
+
+.hero h1{
+font-weight:700;
+font-size: 32px;
+padding: 8px 0px;
+}
+
+.hero-desc{
+opacity:.9;
+color: #fff;
+line-height: 24px;
+padding: 15px 0px;
+}
+
+.rating span{
+background:rgba(255,255,255,0.2);
+padding:6px 12px;
+border-radius:20px;
+margin-right:10px;
+font-size:14px;
+color: #fff;
+
+}
+
+/* CONTENT */
+
+.hospital-section{
+padding:70px 0;
+}
+
+.section-title{
+font-weight:600;
+margin-bottom:15px;
+}
+
+.content-block{
+margin-bottom:40px;
+}
+
+/* INFO CARD */
+
+.info-card{
+background:#fff;
+padding:12px 15px;
+border-radius:8px;
+border:1px solid #eee;
+transition:.3s;
+}
+
+.info-card:hover{
+transform:translateY(-4px);
+box-shadow:0 8px 18px rgba(0,0,0,.08);
+}
+
+/* TAGS */
+
+.tags span{
+display:inline-block;
+background:#eaf4f3;
+padding:6px 14px;
+border-radius:20px;
+margin:5px;
+font-size:14px;
+transition:.3s;
+}
+
+.tags span:hover{
+background:#2f8c86;
+color:#fff;
+}
+
+.tags.primary span{
+background:#2f8c86;
+color:#fff;
+}
+
+/* FACILITY */
+
+.facility-card{
+background:#fff;
+border:1px solid #eee;
+padding:18px;
+border-radius:8px;
+transition:.3s;
+}
+
+.facility-card:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+}
+
+/* PROGRAM */
+
+.program-card{
+background:#eaf4f3;
+padding:18px;
+border-radius:8px;
+transition:.3s;
+}
+
+.program-card:hover{
+background:#d8f0ed;
+transform:scale(1.02);
+}
+
+/* BUTTON */
+
+.btn-appointment{
+background:linear-gradient(135deg,#ff7a32,#ff9a55);
+border:none;
+color:#fff;
+padding:10px 22px;
+border-radius:30px;
+transition:.3s;
+}
+
+.btn-appointment:hover{
+transform:translateY(-2px);
+box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+
+/* appointment page css */
+
+
+.page-header{
+padding:30px 0 40px;
+background:#f8fbfd;
+}
+
+.mini-title{
+font-size:13px;
+letter-spacing:1px;
+color:#2f7e79;
+font-weight:600;
+}
+
+.page-header h1{
+font-weight:700;
+margin:10px 0;
+}
+
+.desc{
+max-width:520px;
+color:#6c757d;
+}
+
+
+/* appointment section */
+
+.appointment-section{
+padding:30px 0 80px;
+}
+
+
+/* form card */
+
+.appointment-card{
+background:white;
+padding:40px;
+border-radius:12px;
+max-width:720px;
+margin:auto;
+box-shadow:0 6px 30px rgba(0,0,0,0.08);
+}
+
+
+/* inputs */
+
+.form-control{
+border-radius:8px;
+padding:12px;
+border:1px solid #e1e5ea;
+}
+
+.form-control:focus{
+border-color:#2f7e79;
+box-shadow:none;
+}
+
+
+/* button */
+
+.appointment-btn{
+background:#ff7a3c;
+color:white;
+padding:14px 30px;
+margin-top:10px;
+border-radius:10px;
+font-weight:600;
+}
+
+.appointment-btn:hover{
+background:#ff6a26;
+color:white;
+}
+
+/* patient story details page css  */
+
+
+/* profile */
+
+/* profile */
+
+.profile-section{
+padding:40px 0;
+background:#f8fbfd;
+}
+
+.profile-header{
+display:flex;
+gap:20px;
+align-items:center;
+}
+
+.profile-img{
+width:90px;
+height:90px;
+border-radius:50%;
+}
+
+.profile-meta span{
+margin-right:15px;
+color:#6c757d;
+font-size:14px;
+}
+
+.tag{
+display:inline-block;
+background:#e3f2f1;
+color:#2e8b87;
+padding:5px 12px;
+border-radius:20px;
+margin-top:6px;
+font-size:13px;
+}
+
+.stars{
+color:#ff7a30;
+margin-top:5px;
+}
+
+/* journey */
+
+.journey-section{
+padding:30px 0;
+}
+
+/* timeline */
+
+.timeline{
+position:relative;
+margin-top:30px;
+}
+
+.timeline::before{
+content:"";
+position:absolute;
+left:18px;
+top:0;
+bottom:0;
+width:2px;
+background:#dcdcdc;
+}
+
+.timeline-item{
+display:flex;
+margin-bottom:25px;
+position:relative;
+}
+
+.timeline-number{
+width:36px;
+height:36px;
+background:#2e8b87;
+color:white;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:600;
+margin-right:20px;
+}
+
+.timeline-content{
+background:white;
+padding:18px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,0.05);
+width:100%;
+}
+
+.timeline-content .date{
+font-size:12px;
+color:#999;
+}
+
+/* doctor card */
+
+.doctor-section{
+padding:50px 0;
+}
+
+.doctor-card{
+background:#d7ecec;
+text-align:center;
+padding:40px;
+border-radius:12px;
+}
+
+/* package & promotions page css */
+
+/* HERO */
+
+.packages-hero{
+padding:70px 0;
+background:#f4f6f7;
+}
+
+.hero-tag{
+color:#2e8b87;
+font-weight:600;
+letter-spacing:1px;
+font-size:13px;
+}
+
+
+/* FILTER BUTTON */
+
+.filter-section{
+padding:30px 0;
+}
+
+.filter-btn{
+
+border:none;
+padding:8px 18px;
+margin:5px;
+
+background:#e6ecef;
+
+border-radius:20px;
+
+cursor:pointer;
+
+transition:.3s;
+}
+
+.filter-btn.active{
+background:#2e8b87;
+color:white;
+}
+
+
+/* CARD */
+
+.package-card{
+background:#fff;
+border-radius:14px;
+overflow:hidden;
+display:flex;
+flex-direction:column;
+width:100%;
+box-shadow:0 8px 20px rgba(0,0,0,0.05);
+transition:0.3s;
+}
+
+.package-card:hover{
+transform:translateY(-6px);
+box-shadow:0 15px 35px rgba(0,0,0,0.12);
+}
+
+
+/* IMAGE */
+
+.package-card img{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+
+/* BODY */
+
+.card-body{
+padding:18px;
+display:flex;
+flex-direction:column;
+flex-grow:1;
+}
+
+
+/* TOP ROW (TAG + BUTTON INLINE) */
+
+.top-row{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:10px;
+}
+
+
+/* CATEGORY */
+
+.category{
+font-size:11px;
+padding:5px 10px;
+border-radius:20px;
+font-weight:600;
+}
+
+.category.diagnostic{
+background:#e8f3f3;
+color:#2e8b87;
+}
+
+.category.wellness{
+background:#e9f6ed;
+color:#2f9e44;
+}
+
+.category.maternity{
+background:#fff1f0;
+color:#e8590c;
+}
+
+.category.surgery{
+background:#eef2ff;
+color:#364fc7;
+}
+
+
+/* TITLE */
+
+.card-body h5{
+font-size:16px;
+font-weight:600;
+margin-bottom:6px;
+}
+
+
+/* HOSPITAL */
+
+.hospital{
+font-size:13px;
+color:#6c757d;
+margin-bottom:12px;
+}
+
+
+/* PRICE */
+
+.price{
+font-size:18px;
+font-weight:700;
+color:#2e8b87;
+margin-top:auto;
+}
+
+.price span{
+font-size:13px;
+color:#999;
+text-decoration:line-through;
+margin-left:6px;
+}
+
+
+/* BUTTON */
+
+.read-btn{
+font-size:12px;
+padding:5px 12px;
+background:#ff7a30;
+color:white;
+border-radius:6px;
+text-decoration:none;
+transition:0.3s;
+}
+
+.read-btn:hover{
+background:#e76820;
+color:#fff;
+}
+/* RESPONSIVE */
+
+@media (max-width:768px){
+
+.package-card img{
+height:180px;
+}
+
+}

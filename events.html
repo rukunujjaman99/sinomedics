@@ -70,7 +70,7 @@ Join our health awareness camps, workshops, and seminars to learn more about mai
 <div class="events-card">
 <div class="row g-0 align-items-center">
 <div class="col-md-4">
-<img src="https://images.unsplash.com/photo-1581091215367-59ab6b82b5f2" class="events-img">
+<img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df" class="events-img">
 </div>
 <div class="col-md-8">
 <div class="events-content">
@@ -91,7 +91,9 @@ Join our health awareness camps, workshops, and seminars to learn more about mai
 
 <div class="events-buttons">
 <a href="#" class="btn btn-view">View Details</a>
-<a href="#" class="btn btn-register">Quick Register</a>
+<a href="#" class="btn btn-register" data-bs-toggle="modal" data-bs-target="#eventRegisterModal">
+Quick Register
+</a>
 </div>
 
 </div>
@@ -124,7 +126,9 @@ Join our health awareness camps, workshops, and seminars to learn more about mai
 
 <div class="events-buttons">
 <a href="#" class="btn btn-view">View Details</a>
-<a href="#" class="btn btn-register">Quick Register</a>
+<a href="#" class="btn btn-register" data-bs-toggle="modal" data-bs-target="#eventRegisterModal">
+Quick Register
+</a>
 </div>
 
 </div>
@@ -134,6 +138,87 @@ Join our health awareness camps, workshops, and seminars to learn more about mai
 
 </div>
 </section>   
+
+<!-- pop up modal for event registration -->
+
+<!-- Event Register Modal -->
+<!-- PREMIUM EVENT REGISTER MODAL -->
+<div class="modal fade" id="eventRegisterModal" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered modal-xl">
+<div class="modal-content premium-modal">
+
+<div class="row g-0">
+
+<!-- LEFT IMAGE PANEL -->
+<div class="col-lg-5 d-none d-lg-block register-image">
+<div class="register-overlay">
+<h3>Join Our Health Event</h3>
+<p>Register today and secure your seat for this informative healthcare event.</p>
+</div>
+</div>
+
+<!-- FORM PANEL -->
+<div class="col-lg-7">
+
+<div class="modal-header border-0">
+<h4 class="modal-title">
+<i class="fa-solid fa-calendar-check me-2"></i>
+Register for This Event
+</h4>
+<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+</div>
+
+<div class="modal-body px-4 pb-4">
+
+<form id="eventForm" class="row g-3">
+
+<div class="col-md-6 form-floating">
+<input type="text" class="form-control" placeholder="Full Name" required>
+<label>Full Name *</label>
+</div>
+
+<div class="col-md-6 form-floating">
+<input type="email" class="form-control" placeholder="Email" required>
+<label>Email *</label>
+</div>
+
+<div class="col-md-6 form-floating">
+<input type="tel" class="form-control" placeholder="Phone" required>
+<label>Phone *</label>
+</div>
+
+<div class="col-md-6 form-floating">
+<input type="number" class="form-control" value="1">
+<label>Number of Attendees</label>
+</div>
+
+<div class="col-12 form-floating">
+<textarea class="form-control" style="height:110px"></textarea>
+<label>Special Requirements</label>
+</div>
+
+<div class="col-12 mt-3">
+<button type="submit" class="btn premium-submit w-100">
+Submit Registration
+</button>
+</div>
+
+</form>
+
+<div id="successMessage" class="text-center mt-4 d-none">
+<i class="fa-solid fa-circle-check success-icon"></i>
+<h5 class="mt-2">Registration Successful!</h5>
+<p>Our team will contact you shortly.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
 
 <!-- FOOTER -->
 <footer class="footer">
