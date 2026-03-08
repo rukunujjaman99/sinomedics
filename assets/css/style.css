@@ -1744,3 +1744,128 @@ height:180px;
 }
 
 }
+
+
+
+
+/* package details page css start */
+
+/* hero */
+
+.package-hero-section{
+background:#f4f6f7;
+padding:30px 0;
+color:#1f2d3d;
+position:relative;
+margin-bottom: 30px;
+}
+
+/* .package-hero-section:before{
+content:'';
+position:absolute;
+inset:0;
+background:rgba(255,255,255,.85);
+} */
+
+.hero-content{
+position:relative;
+max-width:750px;
+}
+
+.hero-content h1{
+font-size:42px;
+font-weight:700;
+margin:20px 0;
+}
+
+
+/* info box */
+
+.info-box{
+display:flex;
+gap:12px;
+background:white;
+border-radius:10px;
+padding:15px;
+border:1px solid #e6e6e6;
+}
+
+.info-box i{
+color:#2f8e8a;
+font-size:18px;
+}
+
+.info-box p{
+margin:0;
+font-size:13px;
+color:#777;
+}
+
+.info-box h6{
+margin:0;
+font-weight:600;
+}
+
+
+/* included */
+
+.included-list{
+list-style:none;
+padding:0;
+}
+
+.included-list li{
+background:#cfe6e6;
+margin-bottom:10px;
+padding:12px 15px;
+border-radius:8px;
+}
+
+
+/* price card */
+
+.price-card{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
+text-align:center;
+}
+
+.price-card h2{
+color:#2f8e8a;
+font-weight:700;
+}
+
+.old-price{
+text-decoration:line-through;
+color:#888;
+font-size:14px;
+}
+
+.reserve-btn{
+background:#2f8e8a;
+color:white;
+margin-top:10px;
+}
+
+.details-btn{
+background:#f4793b;
+color:white;
+margin-top:10px;
+}
+
+.inquiry-btn{
+border:1px solid #2f8e8a;
+margin-top:10px;
+}
+
+.contact-text{
+font-size:13px;
+color:#777;
+margin-top:10px;
+}
+
+
+
+/* package details css end */
