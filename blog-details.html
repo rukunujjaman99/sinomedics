@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Details Page</title>
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: #f8f9fa;
+    }
+
+    /* Hero */
+    .blog-hero {
+      background: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085') center/cover no-repeat;
+      height: 320px;
+      position: relative;
+      color: #fff;
+      display: flex;
+      align-items: center;
+    }
+
+    .blog-hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+    }
+
+    .blog-hero .content {
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Blog content */
+    .blog-content img {
+      width: 100%;
+      border-radius: 12px;
+      margin: 20px 0;
+    }
+
+    .tag {
+      background: #0d6efd;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      margin-right: 5px;
+    }
+
+    /* Sidebar */
+    .sidebar-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    .recent-post img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    /* Author */
+    .author-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    .author-box img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    /* Comments */
+    .comment {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="blog-hero">
+  <div class="container content">
+    <h1 class="fw-bold">How to Become a Frontend Developer in 2026</h1>
+    <p><i class="bi bi-person"></i> Admin | <i class="bi bi-calendar"></i> April 15, 2026</p>
+  </div>
+</section>
+
+<!-- MAIN -->
+<div class="container my-5">
+  <div class="row g-4">
+
+    <!-- LEFT CONTENT -->
+    <div class="col-lg-8">
+
+      <div class="bg-white p-4 rounded-4 shadow-sm blog-content">
+
+        <div>
+          <span class="tag">Web Development</span>
+          <span class="tag">Frontend</span>
+        </div>
+
+        <p class="mt-3">
+          Becoming a frontend developer requires mastering HTML, CSS, and JavaScript. In 2026,
+          modern frameworks like React and Bootstrap play a major role in building responsive websites.
+        </p>
+
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c" alt="blog">
+
+        <h4>1. Learn the Basics</h4>
+        <p>Start with HTML structure, CSS styling, and JavaScript logic.</p>
+
+        <h4>2. Master Frameworks</h4>
+        <p>Learn Bootstrap, React, and modern UI libraries.</p>
+
+        <blockquote class="p-3 bg-light border-start border-primary border-4">
+          “Practice daily and build real-world projects to grow faster.”
+        </blockquote>
+
+        <h4>3. Build Projects</h4>
+        <p>Create portfolio websites, dashboards, and landing pages.</p>
+
+      </div>
+
+      <!-- AUTHOR -->
+      <div class="author-box mt-4">
+        <img src="https://i.pravatar.cc/150?img=12" alt="author">
+        <div>
+          <h6 class="mb-0">Rukunujjaman Kabir</h6>
+          <small>WordPress & Frontend Developer</small>
+        </div>
+      </div>
+
+      <!-- COMMENTS -->
+      <div class="mt-4">
+        <h5>Comments</h5>
+
+        <div class="comment">
+          <strong>John:</strong>
+          <p class="mb-0">Great article! Very helpful.</p>
+        </div>
+
+        <div class="comment">
+          <strong>Sarah:</strong>
+          <p class="mb-0">I love the explanation. Thanks!</p>
+        </div>
+
+        <textarea class="form-control mt-3" rows="3" placeholder="Write a comment..."></textarea>
+        <button class="btn btn-primary mt-2">Post Comment</button>
+      </div>
+
+    </div>
+
+    <!-- SIDEBAR -->
+    <div class="col-lg-4">
+
+      <div class="sidebar-box">
+        <h6>Search</h6>
+        <input type="text" class="form-control" placeholder="Search blog...">
+      </div>
+
+      <div class="sidebar-box">
+        <h6>Categories</h6>
+        <ul class="list-unstyled">
+          <li>Web Design</li>
+          <li>Development</li>
+          <li>UI/UX</li>
+          <li>Technology</li>
+        </ul>
+      </div>
+
+      <div class="sidebar-box">
+        <h6>Recent Posts</h6>
+
+        <div class="d-flex gap-2 recent-post mb-2">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+          <small>Frontend Roadmap 2026</small>
+        </div>
+
+        <div class="d-flex gap-2 recent-post">
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c">
+          <small>React Best Practices</small>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+<footer class="footer">
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+<h5>MediCare</h5>
+<p>Providing exceptional healthcare with compassion and excellence.</p>
+
+<p>123 Healthcare Avenue</p>
+<p>+1 (800) 123-4567</p>
+<p>contact@sino-medics.com</p>
+</div>
+
+<div class="col-md-3">
+<h5>Quick Links</h5>
+<ul class="list-unstyled">
+<li><a href="#">About</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Doctors</a></li>
+<li><a href="#">Blog</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<h5>Services</h5>
+<ul class="list-unstyled">
+<li><a href="#">Primary Care</a></li>
+<li><a href="#">Ophthalmology</a></li>
+<li><a href="#">General Surgery</a></li>
+<li><a href="#">Emergency Care</a></li>
+<li><a href="#">Pharmacy</a></li>
+
+</ul>
+</div>
+
+   
+
+<div class="col-md-3">
+ <h5>Partners Hospitals</h5>
+<ul class="list-unstyled">
+<li><a href="#">MediCare Central Hospital</a></li>
+<li><a href="#">MediCare Eastside Clinic</a></li>
+<li><a href="#">MediCare Westside Medical Center</a></li>
+ 
+</ul>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+© 2026 Sino Medics. All rights reserved.
+</div>
+</div>
+</footer>
+</body>
+</html>
