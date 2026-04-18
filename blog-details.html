@@ -10,95 +10,47 @@
 
   <!-- Icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-
-  <style>
-    body {
-      background: #f8f9fa;
-    }
-
-    /* Hero */
-    .blog-hero {
-      background: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085') center/cover no-repeat;
-      height: 320px;
-      position: relative;
-      color: #fff;
-      display: flex;
-      align-items: center;
-    }
-
-    .blog-hero::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: rgba(0,0,0,0.6);
-    }
-
-    .blog-hero .content {
-      position: relative;
-      z-index: 2;
-    }
-
-    /* Blog content */
-    .blog-content img {
-      width: 100%;
-      border-radius: 12px;
-      margin: 20px 0;
-    }
-
-    .tag {
-      background: #0d6efd;
-      color: #fff;
-      padding: 5px 10px;
-      border-radius: 20px;
-      font-size: 12px;
-      margin-right: 5px;
-    }
-
-    /* Sidebar */
-    .sidebar-box {
-      background: #fff;
-      padding: 20px;
-      border-radius: 12px;
-      margin-bottom: 20px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-    }
-
-    .recent-post img {
-      width: 60px;
-      height: 60px;
-      object-fit: cover;
-      border-radius: 8px;
-    }
-
-    /* Author */
-    .author-box {
-      background: #fff;
-      padding: 20px;
-      border-radius: 12px;
-      display: flex;
-      gap: 15px;
-      align-items: center;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-    }
-
-    .author-box img {
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
-
-    /* Comments */
-    .comment {
-      background: #fff;
-      padding: 15px;
-      border-radius: 10px;
-      margin-bottom: 10px;
-    }
-  </style>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
+
+  <!-- TOPBAR -->
+<div class="topbar">
+<div class="container d-flex justify-content-between">
+<div>📞 +1 (800) 123-4567 | contact@medicare.com</div>
+<div>Mon - Sat: 8:00 AM - 6:00 PM</div>
+</div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+<div class="container">
+<a class="navbar-brand text-success" href="#">Sino Medics</a>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+<ul class="navbar-nav ms-auto align-items-lg-center">
+<li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+<li class="nav-item"><a class="nav-link" href="hospitals.html">Hospitals</a></li>
+ <li class="nav-item"><a class="nav-link" href="diseases.html">Diseases</a></li>
+<li class="nav-item"><a class="nav-link" href="doctors.html">Doctors</a></li>
+<li class="nav-item"><a class="nav-link" href="patients-story.html">Patients Stories</a></li>
+<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+<li class="nav-item ms-lg-3">
+<a href="appointment.html" class="btn btn-primary-custom">Book Appointment</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+
 
 <!-- HERO -->
 <section class="blog-hero">

@@ -1964,7 +1964,7 @@ margin-top:10px;
 
 /* ===== CARDS ===== */
 .info-card{
-  display:flex;
+
   gap:12px;
   padding:18px;
   border-radius:16px;
@@ -2132,3 +2132,88 @@ margin-top:10px;
 @media(max-width:768px){
   .doctor-name{font-size:22px;}
 }
+
+
+/* blog details css */
+
+  /* Hero */
+    .blog-hero {
+      background: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085') center/cover no-repeat;
+      height: 320px;
+      position: relative;
+      color: #fff;
+      display: flex;
+      align-items: center;
+    }
+
+    .blog-hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+    }
+
+    .blog-hero .content {
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Blog content */
+    .blog-content img {
+      width: 100%;
+      border-radius: 12px;
+      margin: 20px 0;
+    }
+
+    .tag {
+      background: #0d6efd;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      margin-right: 5px;
+    }
+
+    /* Sidebar */
+    .sidebar-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    .recent-post img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    /* Author */
+    .author-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    .author-box img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    /* Comments */
+    .comment {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    /* blog details css end */
